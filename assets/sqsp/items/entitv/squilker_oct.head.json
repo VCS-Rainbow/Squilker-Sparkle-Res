@@ -1,0 +1,33 @@
+{
+    "model": {
+        "property": "custom_model_data",
+        "type": "select",
+        "cases": [
+            {
+                "when": "reverse",
+                    "model": {
+                    "type": "minecraft:model",
+                    "model": "sqsp:entitv/squilker_oct.head-reverse",
+                    "tints": [
+                        {
+                            "type": "custom_model_data",
+                            "index": 0,
+                            "default": [1,1,1]
+                        }
+                    ]
+                }
+            }
+        ],
+        "fallback":{
+            "type": "minecraft:model",
+            "model": "sqsp:entitv/squilker_oct.head",
+            "tints": [
+                {
+                    "type": "custom_model_data",
+                    "index": 0,
+                    "default": [1,1,1]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+	"pack": {
+		"name": "Meow_Resource_alpha-0.5",
+		"status": "Building",
+		"description": {"translate":"csch.packmeta.res.description","fallback":"§e[alpha 0.1 building] §aProduced by Void Creature workShop"},
+		"min_format": [69,0],
+		"max_format": [1223,0]
+	}
+}

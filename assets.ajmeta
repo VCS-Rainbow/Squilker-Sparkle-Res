@@ -1,0 +1,49 @@
+{
+	"formatVersion": "1.0.0",
+	"rigs": {
+		"csch_mount_carriagon": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/csch_mount_carriagon/helmet.json",
+				"assets/animated_java/items/blueprint/csch_mount_carriagon/left_arm.json",
+				"assets/animated_java/items/blueprint/csch_mount_carriagon/left_front_arm.json",
+				"assets/animated_java/items/blueprint/csch_mount_carriagon/left_front_leg.json",
+				"assets/animated_java/items/blueprint/csch_mount_carriagon/left_leg.json",
+				"assets/animated_java/items/blueprint/csch_mount_carriagon/left_paw.json",
+				"assets/animated_java/items/blueprint/csch_mount_carriagon/main_body.json",
+				"assets/animated_java/items/blueprint/csch_mount_carriagon/mouth.json",
+				"assets/animated_java/items/blueprint/csch_mount_carriagon/neck_n_head.json",
+				"assets/animated_java/items/blueprint/csch_mount_carriagon/right_arm.json",
+				"assets/animated_java/items/blueprint/csch_mount_carriagon/right_front_arm.json",
+				"assets/animated_java/items/blueprint/csch_mount_carriagon/right_front_leg.json",
+				"assets/animated_java/items/blueprint/csch_mount_carriagon/right_leg.json",
+				"assets/animated_java/items/blueprint/csch_mount_carriagon/right_paw.json",
+				"assets/animated_java/items/blueprint/csch_mount_carriagon/saddle.json",
+				"assets/animated_java/items/blueprint/csch_mount_carriagon/tail.json",
+				"assets/animated_java/items/blueprint/csch_mount_carriagon/tail_2.json",
+				"assets/animated_java/items/blueprint/csch_mount_carriagon/tail_3.json",
+				"assets/animated_java/items/blueprint/csch_mount_carriagon/tail_4.json",
+				"assets/animated_java/models/blueprint/csch_mount_carriagon/helmet.json",
+				"assets/animated_java/models/blueprint/csch_mount_carriagon/left_arm.json",
+				"assets/animated_java/models/blueprint/csch_mount_carriagon/left_front_arm.json",
+				"assets/animated_java/models/blueprint/csch_mount_carriagon/left_front_leg.json",
+				"assets/animated_java/models/blueprint/csch_mount_carriagon/left_leg.json",
+				"assets/animated_java/models/blueprint/csch_mount_carriagon/left_paw.json",
+				"assets/animated_java/models/blueprint/csch_mount_carriagon/main_body.json",
+				"assets/animated_java/models/blueprint/csch_mount_carriagon/mouth.json",
+				"assets/animated_java/models/blueprint/csch_mount_carriagon/neck_n_head.json",
+				"assets/animated_java/models/blueprint/csch_mount_carriagon/right_arm.json",
+				"assets/animated_java/models/blueprint/csch_mount_carriagon/right_front_arm.json",
+				"assets/animated_java/models/blueprint/csch_mount_carriagon/right_front_leg.json",
+				"assets/animated_java/models/blueprint/csch_mount_carriagon/right_leg.json",
+				"assets/animated_java/models/blueprint/csch_mount_carriagon/right_paw.json",
+				"assets/animated_java/models/blueprint/csch_mount_carriagon/saddle.json",
+				"assets/animated_java/models/blueprint/csch_mount_carriagon/tail.json",
+				"assets/animated_java/models/blueprint/csch_mount_carriagon/tail_2.json",
+				"assets/animated_java/models/blueprint/csch_mount_carriagon/tail_3.json",
+				"assets/animated_java/models/blueprint/csch_mount_carriagon/tail_4.json",
+				"assets/animated_java/textures/blueprint/csch_mount_carriagon/cca_animals_1.png"
+			]
+		}
+	}
+}

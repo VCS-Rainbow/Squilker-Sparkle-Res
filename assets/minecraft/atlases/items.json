@@ -1,0 +1,14 @@
+{
+	"sources": [
+		{
+			"type": "directory",
+			"prefix": "entitv/",
+			"source": "entitv"
+		},
+		{
+			"type": "directory",
+			"prefix": "inker/",
+			"source": "inker"
+		}
+	]
+}

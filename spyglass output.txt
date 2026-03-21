@@ -1,0 +1,267 @@
+[Info  - 17:19:10] [onInitialize] processId = 18200
+[Info  - 17:19:10] [onInitialize] clientInfo = {"name":"Visual Studio Code","version":"1.106.3"}
+[Info  - 17:19:10] [onInitialize] initializationOptions = {"inDevelopmentMode":false,"gameVersion":"Latest snapshot"}
+[Info  - 17:19:10] [Project] [init] cacheRoot = file:///C:/Users/Rainbow_/AppData/Local/spyglassmc-nodejs/Cache/
+[Info  - 17:19:10] [Project] [init] projectRoots = file:///c%3A/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/
+[Info  - 17:19:10] [CacheService#load] symbolCachePath = file:///C:/Users/Rainbow_/AppData/Local/spyglassmc-nodejs/Cache/symbols/7498997fd95f037e54826c32ae834e5814cf6244.json.gz
+[Info  - 17:19:10] [Profiler: cache#load] Done: Read File in 158.57750000000001 ms
+[Info  - 17:19:10] [Profiler: cache#load] Done: Link Symbols in 92.20409999999998 ms
+[Info  - 17:19:10] [Profiler: cache#load] == Summary ==
+[Info  - 17:19:10] [Profiler: cache#load] Read File    - 158.57750000000001 ms
+[Info  - 17:19:10] [Profiler: cache#load] Link Symbols - 92.20409999999998 ms
+[Info  - 17:19:10] [Profiler: cache#load] Total        - 250.7816 ms
+[Info  - 17:19:10] [Profiler: project#init] Done: Load Cache in 379.1147 ms
+[Info  - 17:19:10] [Profiler: project#init] Done: Load Config in 2.97199999999998 ms
+[Info  - 17:19:11] [fetchWithCache] reusing cache for https://api.spyglassmc.com/mcje/versions
+[Info  - 17:19:11] [resolveConfiguredVersion] Using config "latest snapshot", selecting version 1.21.11
+[Info  - 17:19:11] [fetchWithCache] reusing cache for https://api.spyglassmc.com/mcje/versions/1.21.11/block_states
+[Info  - 17:19:12] [fetchWithCache] reusing cache for https://api.spyglassmc.com/mcje/versions/1.21.11/commands
+[Info  - 17:19:12] [fetchWithCache] reusing cache for https://api.spyglassmc.com/mcje/versions/1.21.11/registries
+[Info  - 17:19:12] [Profiler: project#init] Done: Initialize in 1987.4687 ms
+[Info  - 17:19:12] [Profiler: project#init] == Summary ==
+[Info  - 17:19:12] [Profiler: project#init] Load Cache  - 379.1147 ms
+[Info  - 17:19:12] [Profiler: project#init] Load Config - 2.97199999999998 ms
+[Info  - 17:19:12] [Profiler: project#init] Initialize  - 1987.4687 ms
+[Info  - 17:19:12] [Profiler: project#init] Total       - 2369.5554 ms
+[Info  - 17:19:13] [fetchWithCache] reusing cache for https://api.spyglassmc.com/mcje/versions/1.21.11/vanilla-data/tarball
+[Info  - 17:19:13] [Project] [getDependencies] Executed provider “@vanilla-datapack”
+[Info  - 17:19:13] [fetchWithCache] reusing cache for https://api.spyglassmc.com/mcje/versions/1.21.11/vanilla-assets-tiny/tarball
+[Info  - 17:19:13] [Project] [getDependencies] Executed provider “@vanilla-resourcepack”
+[Info  - 17:19:14] [fetchWithCache] reusing cache for https://api.spyglassmc.com/vanilla-mcdoc/tarball
+[Info  - 17:19:14] [Project] [getDependencies] Executed provider “@vanilla-mcdoc”
+[Error - 17:19:14] [ArchiveUriSupporter#create] Bad dependency vanilla-datapack Error: unexpected end of file
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at Zlib.zlibOnError [as onerror] (node:zlib:190:17) {
+  errno: -5,
+  code: 'Z_BUF_ERROR'
+}
+[Info  - 17:19:14] [ArchiveUriSupporter#create] Extracted 10493 files from vanilla-assets-tiny
+[Info  - 17:19:14] [ArchiveUriSupporter#create] Extracted 0 files from vanilla-mcdoc
+[Info  - 17:19:14] [ArchiveUriSupporter#listFiles] Listing 10493 entries from vanilla-assets-tiny
+[Info  - 17:19:14] [ArchiveUriSupporter#listFiles] Listing 0 entries from vanilla-mcdoc
+[Info  - 17:19:14] [Project#getTrackedFiles] Listed 10684 supported files
+[Info  - 17:19:14] [Profiler: project#ready] Done: List URIs in 2102.8658 ms
+[Info  - 17:19:14] [SymbolRegistrar] Skipped “mcmeta-summary” thanks to cache W/"03308e5b398744cfd6d5e07dc6abce56c938f5e4"-W/"e322b0a9d83906a09850f6c1f45bf21b134be1fd"-v1-W/"e322b0a9d83906a09850f6c1f45bf21b134be1fd"-v4
+[Info  - 17:19:14] [Profiler: project#ready] Done: Register Symbols in 0.09050000000024738 ms
+[Info  - 17:19:15] [Profiler: project#ready] Done: Pop Errors in 18.84179999999924 ms
+[Info  - 17:19:20] [Project#getTrackedFiles] Listed 10684 supported files
+[Info  - 17:19:20] [Project#getTrackedFiles] Listed 10684 supported files
+[Info  - 17:19:20] [Project#getTrackedFiles] Listed 10684 supported files
+[Info  - 17:19:20] [Project#getTrackedFiles] Listed 10684 supported files
+[Info  - 17:19:20] [Project#getTrackedFiles] Listed 10684 supported files
+[Info  - 17:19:20] [Project#getTrackedFiles] Listed 10684 supported files
+[Info  - 17:19:20] [Profiler: project#ready] Done: Validate Cache in 5149.502400000001 ms
+[Info  - 17:19:20] [Profiler: project#ready] Done: Bind URIs in 0.0385999999998603 ms
+[Info  - 17:19:20] [Profiler: project#ready] Done: Sort URIs in 0.4735000000000582 ms
+[Info  - 17:19:20] [Project#ready] == Files to bind ==
+[Info  - 17:19:20] [Project#ready] File extension png: 3695
+[Info  - 17:19:20] [Project#ready] File extension zip: 1
+[Info  - 17:19:20] [Project] [Config] Changed
+[Info  - 17:19:20] [Project] [Config] Changed
+[Error - 17:19:20] [CacheService#hash-root] archive://vanilla-assets-tiny/
+[Error - 17:19:20] [CacheService#hash-root] archive://vanilla-assets-tiny/
+[Error - 17:19:20] [CacheService#hash-root] archive://vanilla-assets-tiny/
+[Error - 17:19:20] [CacheService#hash-root] archive://vanilla-assets-tiny/
+[Error - 17:19:20] [CacheService#hash-root] archive://vanilla-assets-tiny/
+[Error - 17:19:20] [CacheService#hash-root] archive://vanilla-mcdoc/
+[Error - 17:19:20] [CacheService#hash-root] archive://vanilla-mcdoc/
+[Error - 17:19:20] [CacheService#hash-root] archive://vanilla-mcdoc/
+[Error - 17:19:20] [CacheService#hash-root] archive://vanilla-mcdoc/
+[Error - 17:19:20] [CacheService#hash-root] archive://vanilla-mcdoc/
+[Info  - 17:19:21] [Profiler: project#ready#bind] == Summary ==
+[Info  - 17:19:21] [Profiler: project#ready#bind] Total tasks: 3696 done in 936.4100999999991 ms
+[Info  - 17:19:21] [Profiler: project#ready#bind] Min/Avg/Max: 0.11530000000129803 / 0.2533577110389608 / 24.122199999999793 ms
+[Info  - 17:19:21] [Profiler: project#ready#bind] Top 50 task(s):
+[Info  - 17:19:21] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/Causing%20Crash%200001.zip                                               - 24.122199999999793 ms (2.576029455470399%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/item/recovery_compass_26.png                                                        - 2.8554999999996653 ms (0.3049411790837869%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/entity/trident.png                                                                  - 2.448500000000422 ms (0.2614773164023353%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/block/observer_back_on.png                                                          - 2.335000000000946 ms (0.24935655862756584%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/gui/sprites/toast/system.png                                                        - 2.294100000000981 ms (0.24498881419593646%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/block/dark_oak_door_top.png                                                         - 2.2598999999991065 ms (0.24133656824067878%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/item/egg.png                                                                        - 2.1869000000006054 ms (0.23354083857068686%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_7.png                     - 2.0697000000000116 ms (0.22102495477142053%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/gui/realms/adventure.png                                                            - 1.9584999999988213 ms (0.20914981587648648%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/pack.png                                                                 - 1.9065999999984342 ms (0.20360737245341928%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/block/suspicious_sand_3.png                                                         - 1.8308999999990192 ms (0.1955233075763515%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/textures/item/baguette.eat.3.png                             - 1.8288999999986117 ms (0.19530972594150933%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/gui/realms/upload.png                                                               - 1.8104999999995925 ms (0.19334477490146615%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/particle/explosion_7.png                                                            - 1.7902999999987514 ms (0.19118760038990962%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/gui/realms/experience.png                                                           - 1.7690000000002328 ms (0.1889129559794618%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/entity/end_gateway_beam.png                                                         - 1.7417999999997846 ms (0.18600824574615185%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/gui/realms/survival_spawn.png                                                       - 1.5897000000004482 ms (0.1697653624197827%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/gui/presets/isles.png                                                               - 1.4791999999997643 ms (0.15796497709708232%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/item/oak_sign.png                                                                   - 1.477600000000166 ms (0.15779411178928626%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/gui/realms/inspiration.png                                                          - 1.3158999999996013 ms (0.14052603661575228%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/block/acacia_door_bottom.png                                                        - 1.2531999999991967 ms (0.13383025236477028%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/gui/realms/new_world.png                                                            - 1.130700000001525 ms (0.12074837723359948%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/block/copper_lantern.png                                                            - 1.088900000000649 ms (0.1162845210662134%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/textures/item/netherite_warhammer.png                        - 1.0779999999995198 ms (0.11512050115643999%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/block/cornflower.png                                                                - 1.0586000000002969 ms (0.11304875929897572%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/gui/title/minceraft.png                                                             - 1.0552000000006956 ms (0.11268567051986053%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/textures/item/charm.regeneration.png                         - 0.9614000000001397 ms (0.10266869184774284%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/textures/item/pccs_tear.png                                  - 0.9426000000003114 ms (0.10066102448065353%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/gui/title/minecraft.png                                                             - 0.9077999999990425 ms (0.09694470403502091%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/textures/recipe/quiver.png                                   - 0.9004999999997381 ms (0.09616513106807999%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/csch/textures/block/splitflap_display.png                         - 0.8953999999994267 ms (0.09562049789931008%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/block/crafter_west.png                                                              - 0.8924999999999272 ms (0.09531080452890546%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/item/tropical_fish_spawn_egg.png                                                    - 0.886000000000422 ms (0.09461666421586255%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/textures/recipe/lorrah.esh_irekpin.png                       - 0.8526000000001659 ms (0.09104985091469717%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/textures/item/piston_crossbow/piston_crossbow_firework_1.png - 0.8368000000009488 ms (0.08936255599987115%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/textures/item/piston_crossbow/piston_crossbow_arrow_0.png    - 0.8220999999994092 ms (0.08779273098393642%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/block/dark_prismarine.png                                                           - 0.8176000000003114 ms (0.08731217230573572%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/textures/item/mooring_soul_necklace_item_4.png               - 0.8154999999987922 ms (0.08708791158903487%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/block/crafter_east.png                                                              - 0.8110999999989872 ms (0.08661803199249857%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/block/crafter_bottom.png                                                            - 0.7980999999999767 ms (0.0852297513664128%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/textures/recipe/horn_bow.png                                 - 0.7844999999997526 ms (0.0837773962497578%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/item/compass_27.png                                                                 - 0.7836999999999534 ms (0.08369196359585979%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/block/dark_oak_trapdoor.png                                                         - 0.7804999999989377 ms (0.08335023298007341%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/textures/item/mooring_soul_necklace_item_2.png               - 0.7762000000002445 ms (0.0828910324653958%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/textures/recipe/horn_bow_slime.png                           - 0.7670999999991182 ms (0.0819192360269415%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/textures/recipe/great_sword.png                              - 0.7638999999999214 ms (0.08157750541134938%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/textures/item/baguette.png                                   - 0.7492000000002008 ms (0.08000768039560888%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/textures/recipe/arrow.ap.png                                 - 0.7450000000008004 ms (0.07955915896259567%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/textures/item/shadow_catcher_arrow.png                       - 0.7448000000003958 ms (0.07953780079907259%)
+[Info  - 17:19:21] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/textures/item/piston_crossbow/piston_crossbow_arrow_1.png    - 0.7379999999993743 ms (0.07881162324064797%)
+[Info  - 17:19:21] [Profiler: project#ready] Done: Bind Files in 938.0137999999988 ms
+[Info  - 17:19:21] [Profiler: project#ready] == Summary ==
+[Info  - 17:19:21] [Profiler: project#ready] List URIs        - 2102.8658 ms
+[Info  - 17:19:21] [Profiler: project#ready] Register Symbols - 0.09050000000024738 ms
+[Info  - 17:19:21] [Profiler: project#ready] Pop Errors       - 18.84179999999924 ms
+[Info  - 17:19:21] [Profiler: project#ready] Validate Cache   - 5149.502400000001 ms
+[Info  - 17:19:21] [Profiler: project#ready] Bind URIs        - 0.0385999999998603 ms
+[Info  - 17:19:21] [Profiler: project#ready] Sort URIs        - 0.4735000000000582 ms
+[Info  - 17:19:21] [Profiler: project#ready] Bind Files       - 938.0137999999988 ms
+[Info  - 17:19:21] [Profiler: project#ready] Total            - 8209.8264 ms
+[Warn  - 17:19:39] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:19:50] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:19:53] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:19:53] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:24:30] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:24:31] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:24:32] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:24:33] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:24:34] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:25:46] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:25:54] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:26:04] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:26:04] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:26:04] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:26:05] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:26:05] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:26:05] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:26:05] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:26:05] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:26:06] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:26:06] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:26:06] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:26:07] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:26:07] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:26:07] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:26:07] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:26:08] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:26:08] Tried to access unknown dispatcher minecraft:resource
+[Warn  - 17:26:08] Tried to access unknown dispatcher minecraft:resource
+[Info  - 17:26:38] [Project#resetCache] Initiated...
+[Info  - 17:26:40] [fetchWithCache] reusing cache for https://api.spyglassmc.com/mcje/versions/1.21.11/vanilla-data/tarball
+[Info  - 17:26:40] [Project] [getDependencies] Executed provider “@vanilla-datapack”
+[Info  - 17:26:41] [fetchWithCache] reusing cache for https://api.spyglassmc.com/mcje/versions/1.21.11/vanilla-assets-tiny/tarball
+[Info  - 17:26:41] [Project] [getDependencies] Executed provider “@vanilla-resourcepack”
+[Info  - 17:26:41] [fetchWithCache] reusing cache for https://api.spyglassmc.com/vanilla-mcdoc/tarball
+[Info  - 17:26:41] [Project] [getDependencies] Executed provider “@vanilla-mcdoc”
+[Error - 17:26:41] [ArchiveUriSupporter#create] Bad dependency vanilla-datapack Error: unexpected end of file
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at Zlib.zlibOnError [as onerror] (node:zlib:190:17) {
+  errno: -5,
+  code: 'Z_BUF_ERROR'
+}
+[Info  - 17:26:42] [ArchiveUriSupporter#create] Extracted 10493 files from vanilla-assets-tiny
+[Info  - 17:26:42] [ArchiveUriSupporter#create] Extracted 0 files from vanilla-mcdoc
+[Info  - 17:26:42] [ArchiveUriSupporter#listFiles] Listing 10493 entries from vanilla-assets-tiny
+[Info  - 17:26:42] [ArchiveUriSupporter#listFiles] Listing 0 entries from vanilla-mcdoc
+[Info  - 17:26:43] [Project#getTrackedFiles] Listed 10686 supported files
+[Info  - 17:26:43] [Profiler: project#ready] Done: List URIs in 5348.6252000000095 ms
+[Info  - 17:26:44] [Profiler: project#ready] Done: Register Symbols in 173.8567000000039 ms
+[Info  - 17:26:44] [Profiler: project#ready] Done: Pop Errors in 0.104300000006333 ms
+[Info  - 17:26:44] [Project#getTrackedFiles] Listed 10686 supported files
+[Info  - 17:26:44] [Profiler: project#ready] Done: Validate Cache in 2.408999999985099 ms
+[Info  - 17:26:45] [Profiler: project#ready] Done: Bind URIs in 1448.4916000000085 ms
+[Info  - 17:26:45] [Profiler: project#ready] Done: Sort URIs in 0.6758000000263564 ms
+[Info  - 17:26:45] [Project#ready] == Files to bind ==
+[Info  - 17:26:45] [Project#ready] File extension json: 6738
+[Info  - 17:26:45] [Project#ready] File extension vsh: 38
+[Info  - 17:26:45] [Project#ready] File extension fsh: 47
+[Info  - 17:26:45] [Project#ready] File extension png: 3695
+[Info  - 17:26:45] [Project#ready] File extension mcmeta: 167
+[Info  - 17:26:45] [Project#ready] File extension zip: 1
+[Info  - 17:26:50] [Profiler: project#ready#bind] == Summary ==
+[Info  - 17:26:50] [Profiler: project#ready#bind] Total tasks: 10686 done in 4499.736800000013 ms
+[Info  - 17:26:50] [Profiler: project#ready#bind] Min/Avg/Max: 0.07200000004377216 / 0.4210871046228723 / 111.08230000000913 ms
+[Info  - 17:26:50] [Profiler: project#ready#bind] Top 50 task(s):
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/lang/en_us.json                                                                              - 111.08230000000913 ms (2.468639943563117%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/Causing%20Crash%200001.zip                                               - 17.240099999995437 ms (0.38313574251710425%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/blockstates/jungle_log.json                                                                  - 8.533200000005309 ms (0.18963775836856242%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/animated_java/items/blueprint/csch_mount_carriagon/right_paw.json - 8.329100000031758 ms (0.18510193751847293%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/csch/models/weapon/sabre/sabre_thrust.json                        - 7.959699999948498 ms (0.17689256847085977%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/models/shield/zifh_test.json                                 - 7.175199999997858 ms (0.1594582154226851%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/models/shield/thorn_blocking.json                            - 6.818599999998696 ms (0.15153330745919796%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/models/block/tripwire_hook_attached_on.json                                                  - 6.2620999999926426 ms (0.13916591743749598%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/blockstates/polished_blackstone_pressure_plate.json                                          - 6.237000000022817 ms (0.13860810703467807%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/blockstates/tnt.json                                                                         - 5.957299999950919 ms (0.1323921879153221%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/models/shield/zifh.json                                      - 5.85820000001695 ms (0.13018983688150235%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/models/shield/zifh_blocking.json                             - 5.85820000001695 ms (0.13018983688150235%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/blockstates/weathered_copper_door.json                                                       - 5.8096999999834225 ms (0.12911199606126753%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/blockstates/repeater.json                                                                    - 5.725700000009965 ms (0.12724522020954532%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/blockstates/nether_brick_stairs.json                                                         - 5.630300000018906 ms (0.12512509620604675%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/models/block/weeping_vines.json                                                              - 5.523199999995995 ms (0.12274495699383971%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/models/block/template_four_candles.json                                                      - 5.442800000018906 ms (0.1209581858214216%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/models/block/bamboo_shelf_center.json                                                        - 5.187400000053458 ms (0.11528229829027874%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/items/bamboo_pressure_plate.json                                                             - 5.133000000030734 ms (0.11407333869018113%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/models/block/sea_pickle.json                                                                 - 4.951699999975972 ms (0.11004421414105725%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/models/block/brewing_stand.json                                                              - 4.791700000001583 ms (0.10648845061341297%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/models/block/iron_chain.json                                                                 - 4.643500000005588 ms (0.10319492464549425%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/csch/models/weapon/crossbow_steel/crossbow_steel.json             - 4.510899999993853 ms (0.10024808562122656%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/blockstates/diamond_block.json                                                               - 4.4310000000405125 ms (0.0984724262103619%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/csch/models/weapon/cross_shield.json                              - 4.327199999999721 ms (0.09616562462052687%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/animated_java/models/blueprint/csch_mount_carriagon/helmet.json   - 4.261499999964144 ms (0.09470553922096357%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/models/block/crimson_planks.json                                                             - 4.2321000000229105 ms (0.09405216767396035%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/models/block/fence_post.json                                                                 - 4.224599999957718 ms (0.09388549125712653%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/models/item/mooring_soul_necklace_item_0.json                - 4.167799999995623 ms (0.09262319520545313%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/items/packed_mud.json                                                                        - 4.054799999983516 ms (0.09011193721338331%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/models/block/stone_stairs.json                                                               - 3.862699999997858 ms (0.08584279862764077%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/csch/models/weapon/crossbow_steel/crossbow_steel_empty.json       - 3.820799999986775 ms (0.08491163305344357%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/items/deepslate.json                                                                         - 3.632000000041444 ms (0.08071583209136662%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/models/item/warhammer.json                                   - 3.506699999968987 ms (0.07793122477672419%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/models/block/chiseled_bookshelf_occupied_slot_bottom_right.json                              - 3.4182000000146218 ms (0.07596444307619529%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/block/iron_ore.png                                                                  - 3.3976999999722466 ms (0.07550886087320122%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/items/gray_shulker_box.json                                                                  - 3.392200000002049 ms (0.0753866315025812%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/models/block/pale_moss_carpet_side_tall.json                                                 - 3.3880999999819323 ms (0.07529551506172366%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/animated_java/models/blueprint/csch_mount_carriagon/saddle.json   - 3.361299999989569 ms (0.07469992467091763%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/models/item/slime_spawn_egg.json                                                             - 3.3466999999945983 ms (0.07437546124907991%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/items/magenta_bed.json                                                                       - 3.34509999997681 ms (0.07433990361340245%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/textures/gui/sprites/advancements/tab_above_right_selected.png                               - 3.3224000000045635 ms (0.07383542966345395%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/csch/models/block/station_clock.json                              - 3.287499999976717 ms (0.07305982874324354%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/models/block/dead_fire_coral.json                                                            - 3.274600000004284 ms (0.07277314530939397%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/particles/campfire_cosy_smoke.json                                                           - 3.2608999999938533 ms (0.07246868305705889%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/lang/deprecated.json                                                                         - 3.1977000000188127 ms (0.07106415646396926%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/models/block/red_candle_four_candles.json                                                    - 3.152699999976903 ms (0.07006409797072784%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] file:///c:/Game/Minecraft/.minecraft/resourcepacks/Causing%20Crash/assets/meow/models/item/netherite_warhammer.json                         - 3.1185999999870546 ms (0.06930627586900294%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/items/chiseled_quartz_block.json                                                             - 3.1019000000087544 ms (0.06893514305122792%)
+[Info  - 17:26:50] [Profiler: project#ready#bind] archive://vanilla-assets-tiny/assets/minecraft/items/redstone_block.json                                                                    - 3.0731000000378117 ms (0.06829510561679525%)
+[Info  - 17:26:50] [Profiler: project#ready] Done: Bind Files in 4502.8593999999575 ms
+[Info  - 17:26:50] [Profiler: project#ready] == Summary ==
+[Info  - 17:26:50] [Profiler: project#ready] List URIs        - 5348.6252000000095 ms
+[Info  - 17:26:50] [Profiler: project#ready] Register Symbols - 173.8567000000039 ms
+[Info  - 17:26:50] [Profiler: project#ready] Pop Errors       - 0.104300000006333 ms
+[Info  - 17:26:50] [Profiler: project#ready] Validate Cache   - 2.408999999985099 ms
+[Info  - 17:26:50] [Profiler: project#ready] Bind URIs        - 1448.4916000000085 ms
+[Info  - 17:26:50] [Profiler: project#ready] Sort URIs        - 0.6758000000263564 ms
+[Info  - 17:26:50] [Profiler: project#ready] Bind Files       - 4502.8593999999575 ms
+[Info  - 17:26:50] [Profiler: project#ready] Total            - 11477.021999999997 ms
+[Info  - 17:29:10] [Profiler: cache#save] Done: Unlink Symbols in 128.57669999997597 ms
+[Info  - 17:29:10] [Profiler: cache#save] Done: Write File in 163.80390000005718 ms
+[Info  - 17:29:10] [Profiler: cache#save] == Summary ==
+[Info  - 17:29:10] [Profiler: cache#save] Unlink Symbols - 128.57669999997597 ms
+[Info  - 17:29:10] [Profiler: cache#save] Write File     - 163.80390000005718 ms
+[Info  - 17:29:10] [Profiler: cache#save] Total          - 292.38060000003316 ms

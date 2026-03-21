@@ -1,0 +1,10 @@
+{
+    "parent": "sqsp:entitv/squilker_oct.head",
+    "display": {
+        "head":{
+            "rotation": [-145,-190,0],
+            "scale": [4,4,4],
+            "translation": [0,-22.5,-10.5]
+        }
+    }
+}
