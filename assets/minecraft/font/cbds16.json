@@ -1,0 +1,10 @@
+{
+    "providers": [
+        {
+            "type":"ttf",
+            "file":"minecraft:cbds16sc.ttf",
+            "oversample":8,
+            "size": 16
+        }
+    ]
+}
