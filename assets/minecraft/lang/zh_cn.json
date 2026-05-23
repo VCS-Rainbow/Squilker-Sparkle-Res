@@ -9,5 +9,11 @@
     "sqsp.inker.drip_carbine.refill_tips":"\u00a77长按装填",
     "sqsp.inker.drip_carbine.lore.1":"\u00a77墨水容量 - \u00a77%s",
     "sqsp.inker.drip_carbine.lore.2":"\u00a77连续发射较高速度的墨滴",
-    "sqsp.inker.drip_carbine.lore.3":"\u00a78弹药耗尽后长按使用键装填。"
+    "sqsp.inker.drip_carbine.lore.3":"\u00a78弹药耗尽后长按使用键装填",
+    "sqsp.inker.spray_shotgun.name":"雾化喷枪",
+    "sqsp.inker.spray_shotgun.refill_tips":"\u00a77等候装填",
+    "sqsp.inker.spray_shotgun.lore.1":"\u00a77墨水容量 - \u00a77%s",
+    "sqsp.inker.spray_shotgun.lore.2":"\u00a77长按发射彩墨雾团, 雾团只在成功染色时被消耗",
+    "sqsp.inker.spray_shotgun.lore.3":"\u00a77雾团每隔一段时间自动扩散, 扩散到极限后消失",
+    "sqsp.inker.spray_shotgun.lore.4":"\u00a78每隔较长时间自动装填"
 }
