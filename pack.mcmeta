@@ -2,7 +2,7 @@
 	"pack": {
 		"name": "Meow_Resource_alpha-0.5",
 		"status": "Building",
-		"description": {"translate":"csch.packmeta.res.description","fallback":"§e[Dev1.2 SS.10] §aProduced by Void Creature workShop"},
+		"description": [{"translate":"sqsp.packmeta.res.description","fallback":"§e[Dev1.2 SS.15] §a墨影烟花资源包\nby VoidCreature workShop    \n"},"\n",{"translate":"sqsp.packmeta.res.Credits","fallback":"字体：\n  - 长坂点宋\n　　[https://github.com/yzdnn/ChangBanDianSong-16]\n　　[https://github.com/yzdnn/ChangBanDianSong-12/releases/tag/v1.4.2]"}],
 		"min_format": [69,0],
 		"max_format": [1223,0]
 	}

@@ -1,4 +1,11 @@
 {
+    "vdc.packmeta.dp.description.1": "§c虚空数据核心",
+    "vdc.packmeta.dp.description.1.fallback":"",
+
+    "sqsp.packmeta.dp.description.1": "§9墨影烟花 ",
+    "sqsp.packmeta.dp.description.1.fallback":"",
+    "sqspnss.packmeta.dp.description.1": "§9墨影烟花 ",
+    "sqspnss.packmeta.dp.description.1.fallback":"",
     "sqsp.inker.jet_rifle.name":"射流水枪",
     "sqsp.inker.jet_rifle.refill_tips":"\u00a77等候装填",
     "sqsp.inker.jet_rifle.lore.1":"\u00a77墨水容量 - %s",
