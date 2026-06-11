@@ -259,7 +259,7 @@
         "transformation": {
             "left_rotation": [0,0,0,1],
             "right_rotation": [0,0,0,1],
-            "scale": [8,8,8],
+            "scale": [4,4,4],
             "translation": [0.5,-1,0.5]
         }
     }
