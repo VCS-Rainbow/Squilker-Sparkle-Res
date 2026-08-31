@@ -2,7 +2,7 @@
     "providers": [
         {
             "type":"reference",
-            "id":"sqsp:cbds16-size10"
+            "id":"sqsp:cbds12-size8"
         }
     ]
 }

@@ -2,9 +2,9 @@
     "providers": [
         {
             "type":"ttf",
-            "file":"minecraft:cbds16sc.ttf",
+            "file":"sqsp:cbds16sc.ttf",
             "oversample":8,
-            "size": 10
+            "size": 12
         }
     ]
 }

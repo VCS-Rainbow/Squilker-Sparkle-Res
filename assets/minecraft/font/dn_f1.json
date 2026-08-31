@@ -1,0 +1,16 @@
+{
+    "providers": [
+        {
+            "type":"reference",
+            "id": "minecraft:space"
+        },
+        {
+            "type":"reference",
+            "id": "sqsp:cbds12a-size8-df1"
+        },
+        {
+            "type":"reference",
+            "id": "sqsp:cbds16-size8-df1"
+        }
+    ]
+}

@@ -158,6 +158,14 @@
             ]
         },
         {
+            "type":"reference",
+            "id": "minecraft:space"
+        },
+        {
+            "type":"reference",
+            "id": "sqsp:cbds12a-size8"
+        },
+        {
             "type": "bitmap",
             "file": "minecraft:font/ascii.png",
             "ascent": 7,
@@ -182,7 +190,7 @@
         },
         {
             "type":"reference",
-            "id": "cbds16-size8"
+            "id": "sqsp:cbds16-size8"
         }
     ]
 }
