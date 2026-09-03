@@ -1,0 +1,22 @@
+{
+    "providers": [
+        {
+            "type":"reference",
+            "id": "minecraft:space"
+        },
+        {
+            "type":"ttf",
+            "file":"sqsp:cbds12_ascii.ttf",
+            "oversample":8,
+            "size": 8,
+            "shift": [0,27]
+        },
+        {
+            "type":"ttf",
+            "file":"sqsp:cbds16sc.ttf",
+            "oversample":8,
+            "size": 8,
+            "shift": [0,27]
+        }
+    ]
+}
