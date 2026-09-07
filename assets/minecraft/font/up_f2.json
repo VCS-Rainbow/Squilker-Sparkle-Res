@@ -11,6 +11,15 @@
         {
             "type":"reference",
             "id": "sqsp:cbds16-size8-uf2"
+        },
+        {
+            "type": "bitmap",
+            "chars": [
+                "\ufe00"
+            ],
+            "file": "minecraft:mob_effect/wind_charged.png",
+            "height": 8,
+            "ascent": 8
         }
     ]
 }
