@@ -1,0 +1,14 @@
+{
+    "model": {
+        "type": "select",
+        "property":"custom_model_data",
+        "cases": [
+            {"model": {"type": "model","model": "sqsp:pic/tutor.1"},"when": ["1"]},
+            {"model": {"type": "model","model": "sqsp:pic/tutor.2"},"when": ["2"]},
+            {"model": {"type": "model","model": "sqsp:pic/tutor.3"},"when": ["3"]},
+            {"model": {"type": "model","model": "sqsp:pic/tutor.4"},"when": ["4"]},
+            {"model": {"type": "model","model": "sqsp:pic/tutor.5"},"when": ["5"]}
+        ],
+        "fallback": {"type": "model","model": "sqsp:pic/tbctn"}
+    }
+}

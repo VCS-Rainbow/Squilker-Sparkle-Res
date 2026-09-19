@@ -9,6 +9,11 @@
 			"type": "directory",
 			"prefix": "inker/",
 			"source": "inker"
+		},
+		{
+			"type": "directory",
+			"prefix": "pic/",
+			"source": "pic"
 		}
 	]
 }

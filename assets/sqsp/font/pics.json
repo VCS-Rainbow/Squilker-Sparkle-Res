@@ -1,0 +1,15 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "sqsp:pic/tutor_1.png",
+            "height": 256,
+            "chars": [
+                "\ua010\ua011\ua012",
+                "\ua013\ua014\ua015",
+                "\ua016\ua017\ua018"
+            ],
+            "ascent": 0
+        }
+    ]
+}
